@@ -12,7 +12,7 @@ Plugins/Carla/Debug
 Plugins/Carla/DerivedDataCache
 Plugins/Carla/Intermediate
 Plugins/Carla/Saved
-
+*.uproject
 /Content
 Config/CarlaSettings.ini
 Config/DefaultEditor.ini
