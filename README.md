@@ -20,6 +20,7 @@ First Time Setup:
 - Set a windows environment variable called UE4_ROOT to be the path to your custom engine versions root folder (this is the same as repository root if you are getting it from github.)
 
 - Run Update.bat (this will download all of the carla assets from 4.26  version into the unreal project in this repo. Also takes a long time)
+  **WE WILL BE MOVING THIS STEP TO ALREADY CONVERTER GIT LFS ASSETS FOR 5.2**
 
 - Switch Project Engine Version in Unreal/CarlaUnreal to path to our custom engine version of carla (right click swithc engine version)
 
