@@ -113,7 +113,8 @@ FVehicleNWGearData UWheeledVehicleMovementComponentNW::GetGearData(int32 Index) 
 	FVehicleNWGearData Out;
 	Out.UpRatio = TransmissionSetup.ForwardGearRatios[Index];
 	Out.DownRatio = TransmissionSetup.ReverseGearRatios[Index];
-	Out.DownRatio = TransmissionSetup.GetGearRatio(Index);
+	//TODO:
+	//Out.DownRatio = TransmissionSetup.GetGearRatio(Index);
 	return Out;
 }
 

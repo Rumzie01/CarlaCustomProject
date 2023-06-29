@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{BA2BC85B-4A0C-0B7D-2AB4-2CA951512345}",
+	"EngineAssociation": "{C8E4B960-4F29-740D-9FB7-61B38C9BCDC1}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -110,7 +110,7 @@
 		},
 		{
 			"Name": "CarlaTools",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "ChaosVehiclesPlugin",

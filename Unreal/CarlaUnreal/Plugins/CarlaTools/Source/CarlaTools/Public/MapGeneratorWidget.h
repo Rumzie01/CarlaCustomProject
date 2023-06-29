@@ -7,7 +7,6 @@
 #pragma once 
 
 #include "CoreMinimal.h"
-
 #include "EditorUtilityWidget.h"
 #include "Engine/TextureRenderTarget2D.h"
 #include "ProceduralFoliageSpawner.h"

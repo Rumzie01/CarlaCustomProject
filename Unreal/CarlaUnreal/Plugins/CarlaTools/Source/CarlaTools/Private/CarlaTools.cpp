@@ -20,7 +20,9 @@ void FCarlaToolsModule::ShutdownModule()
 #undef LOCTEXT_NAMESPACE
 	
 IMPLEMENT_MODULE(FCarlaToolsModule, CarlaTools)
-
+#if PLATFORM_WINDOWS
+#include "MinWindows.h"
+#endif
 #include <compiler/disable-ue4-macros.h>
 #include <carla/Exception.h>
 #include <compiler/enable-ue4-macros.h>

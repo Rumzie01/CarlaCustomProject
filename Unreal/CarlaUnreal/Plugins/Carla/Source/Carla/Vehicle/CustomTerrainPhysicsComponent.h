@@ -5,7 +5,7 @@
 // For a copy, see <https://opensource.org/licenses/MIT>.
 
 #pragma once
-
+#undef max
 #include "Components/ActorComponent.h"
 #include "Components/PrimitiveComponent.h"
 #include "Misc/ScopeLock.h"

@@ -1,6 +1,8 @@
 // Copyright (c) 2023 Computer Vision Center (CVC) at the Universitat Autonoma de Barcelona (UAB). This work is licensed under the terms of the MIT license. For a copy, see <https://opensource.org/licenses/MIT>.
-
 #include "OpenDriveToMap.h"
+#if PLATFORM_WINDOWS
+#include "MinWindows.h"
+#endif
 #include "Components/Button.h"
 #include "DesktopPlatform/Public/IDesktopPlatform.h"
 #include "DesktopPlatform/Public/DesktopPlatformModule.h"

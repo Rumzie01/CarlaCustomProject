@@ -6,7 +6,6 @@
 #if PLATFORM_WINDOWS
   #include "AllowWindowsPlatformTypes.h"
 #endif
-
 #include "GenericPlatform/GenericPlatformMath.h"
 //#include "GenericPlatform/GenericPlatformProcess.h"
 #include "GenericPlatform/GenericPlatformFile.h"

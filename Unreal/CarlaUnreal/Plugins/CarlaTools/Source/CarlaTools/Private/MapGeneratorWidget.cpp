@@ -13,7 +13,8 @@
 #include "Carla/Weather/Weather.h"
 #include "Carla/Vehicle/CustomTerrainPhysicsComponent.h"
 #include "Components/SplineComponent.h"
-#include "Editor/FoliageEdit/Public/FoliageEdMode.h"
+#include "Editor/FoliageEdit/Public/FoliageEditModule.h"
+// #include "Editor/FoliageEdit/Private/FoliageEdMode.h"
 #include "EditorLevelLibrary.h"
 #include "FileHelpers.h"
 #include "GenericPlatform/GenericPlatformFile.h"
@@ -32,6 +33,7 @@
 
 #include "EditorAssetLibrary.h"
 #include "EngineUtils.h"
+#include "FoliageEdMode.h"
 #include "ObjectEditorUtils.h"
 #include "UObject/UnrealType.h"
 #include "UObject/UObjectGlobals.h"
