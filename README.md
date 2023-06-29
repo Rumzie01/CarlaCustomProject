@@ -14,6 +14,8 @@ You must install the following Python dependencies:
 
 pip3 install --user setuptools
 pip3 install --user wheel
+- Also make sure you have python PATH variable in your windows env variables and that it's pointing to correct python version.
+
 - VS 2019 (with all the tools you would normally install for a unreal engine project, you can reference engine install guide)
 - VS 2022 (with all the tools you would normally install for a unreal engine project, you can reference engine install guide)
 
@@ -34,7 +36,7 @@ First Time Setup:
 
 - Enter 'cd ..' 2 times to get to the carla root directory.
 
-- type command 'make rebuild' - This build the carla libraries and python API's
+- type command 'make rebuild' - This build the carla libraries and python API's - and also retrieves a bunch of dependencies based on your current windows toolset. For example, if you had vs2019 open you would install the wrong toolset! Make sure using 2022.
 
 - type command 'make launch' - This builds the carla libraries and python API's and also builds the unreal project (This step is to really just make sure you unreal project compiles, after this step you should be able to open the project with the .uproject file from now on unless there are changes to carla or carla's plugin, then you will 'make launch' again to rebuild unreal project and carla libs.)
 
