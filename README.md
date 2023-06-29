@@ -14,12 +14,10 @@ You must install the following Python dependencies:
 
 pip3 install --user setuptools
 pip3 install --user wheel
-- VS 2019 (if you have 2022 installed make sure to uninstall .net 6.0 framework as UE needs to be build with .NET4.0 for carla)
-=======
-- VS 2019 (if you have 2022 installed it may or may not work depending on which SDK's you have installed)
->>>>>>> Stashed changes
+- VS 2019 (with all the tools you would normally install for a unreal engine project, you can reference engine install guide)
+- VS 2022 (with all the tools you would normally install for a unreal engine project, you can reference engine install guide)
 
-
+- *NOTE* You need 2019 installed but you should ONLY USE VS 2022~!
 First Time Setup:
 - Add a windows environment variable called CARLA_UNREAL_ENGINE_ROOT to be the path to your custom engine versions root folder on your machine (this is the same as repository root if you are getting it from github.) (If you have visual studio open when you add this variable you will need to restart it)
 
